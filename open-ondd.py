@@ -96,7 +96,7 @@ def getSocket():
 def usage():
     print('Usage: {} [OPTIONS]'.format(sys.argv[0]))
     print('')
-    print('By default, {} will listen on a UDP socket for Outernet frames'.format(sys.argv[0]))
+    print('By default, {} will listen on a UDP socket for Othernet frames'.format(sys.argv[0]))
     print('If you want to use a KISS file as input, you must use the -k option')
     print('')
     print('''Options:
