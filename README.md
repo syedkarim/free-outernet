@@ -1,14 +1,14 @@
 # open-ondd 
-Open Source File Decoder for Othernet Data Broadcast
+an open source file decoder for the Othernet data broadcast
 
-This is an open source file decoder for [Othernet](http://othernet.is/) which aims to provide a free software alternative to `ondd`.
+This is an open source file decoder for [Othernet](http://othernet.is/) which aims to provide an open source alternative to `ondd`.
 
 With open-ondd you can receive the files that are broadcast by the Othernet file broadcast service and the time packets that are broadcast by the Othernet
 time service.
 
-All of this software is the result of a third-party reverse-engineering effort.
+This software is the result of a third-party reverse-engineering effort: https://github.com/daniestevez/free-outernet
 
-`free-outernet.py` receivea UDP packets in real-time from a designated UDP port.  `free-outernet.py` recovers the files and time packets that are transmitted by
+`open-ondd.py` receives UDP packets in real-time from a designated UDP port.  `open-ondd.py` recovers the files and time packets that are transmitted by
 Othernet and relayed over UDP. It also prints some interesting debug info.
 
 
